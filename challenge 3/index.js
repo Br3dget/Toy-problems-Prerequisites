@@ -3,7 +3,7 @@ function checkSpeed(speed){
     const speedLimit = 70;
     const demeritPointsThreshold = 12;
 
-if (speed => speedlimit) {
+if (speed <= speedlimit) {
     console.log("ok");
 } else {
     const points = Math.floor((speed -speedlimit) / kmPerDemeritPoint)
@@ -16,6 +16,4 @@ if (speed => speedlimit) {
 }
 }
 
-checkSpeed(140);
-checkSpeed(80);
-checkSpeed(60)
+speedDetector();

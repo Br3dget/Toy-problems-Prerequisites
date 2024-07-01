@@ -28,3 +28,5 @@ console.log ("grossSalary");
 console.log ("nhifDeductions");
 console.log ("nssfDeductions");
 console.log ("netSalary");
+
+netSalaryCalculator();
